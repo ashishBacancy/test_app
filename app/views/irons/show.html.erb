@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @iron.name %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @iron.type %>
+</p>
+
+<%= link_to 'Edit', edit_iron_path(@iron) %> |
+<%= link_to 'Back', irons_path %>
