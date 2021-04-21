@@ -1,0 +1,2 @@
+class Plastic < ApplicationRecord
+end

@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @plastic.name %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @plastic.type %>
+</p>
+
+<%= link_to 'Edit', edit_plastic_path(@plastic) %> |
+<%= link_to 'Back', plastics_path %>
